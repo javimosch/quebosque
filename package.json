@@ -1,16 +1,23 @@
 {
-  "name": "image-classification",
+  "name": "quebosque",
   "version": "1.0.0",
-  "description": "A simple example on Image Classification in Node.js with TensorFlow.js",
-  "main": "classify.js",
+  "description": "",
+  "main": "detect.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tejas Rathod",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tejas77/node-image-classification.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tejas77/node-image-classification/issues"
+  },
+  "homepage": "https://github.com/tejas77/node-image-classification#readme",
   "dependencies": {
-    "@tensorflow-models/mobilenet": "^2.0.4",
-    "@tensorflow/tfjs": "^1.2.10",
-    "@tensorflow/tfjs-node": "^1.2.10"
+    "image-classifier": "^1.1.0",
+    "sander": "^0.6.0"
   }
 }
